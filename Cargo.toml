@@ -1,0 +1,10 @@
+[package]
+name = "lglc"
+version = "0.1.0"
+authors = ["archshift <gh@archshift.com>"]
+
+[lib]
+crate-type = ["staticlib"]
+
+[dependencies]
+lgl = { git = "https://github.com/archshift/lgl" }
